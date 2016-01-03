@@ -1,0 +1,16 @@
+
+{
+  "eventName": "shaveButterLow",
+  "url": "https://api.pushbullet.com/v2/pushes",
+  "requestType": "POST",
+  "headers": {
+    "Authorization": "Bearer iHWtSDZNWdYRrswctYDeu6G5EXJYitJ6",
+    "Content-Type": "application/json"
+  },
+  "json": {
+      "type": "note",
+      "title": "{{Test Message}}",
+      "body": "You're running low on Shave Butter. Purchase more now."
+  },
+  "mydevices": true
+}
